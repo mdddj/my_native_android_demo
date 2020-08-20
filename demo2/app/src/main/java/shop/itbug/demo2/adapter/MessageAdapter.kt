@@ -1,9 +1,7 @@
 package shop.itbug.demo2.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import shop.itbug.demo2.R
 import shop.itbug.demo2.entry.Message
