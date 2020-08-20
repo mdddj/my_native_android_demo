@@ -33,4 +33,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ListView的使用" android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/startRecyclerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView的使用" android:textAllCaps="false" />
 </LinearLayout>

@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,ListViewActivity::class.java)
             startActivity(intent)
         }
+        startRecyclerActivity.setOnClickListener{
+            val intent = Intent(this,RecyclerActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onStart() {
