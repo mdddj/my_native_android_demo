@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,RecyclerActivity::class.java)
             startActivity(intent)
         }
+        startMessageActivity.setOnClickListener{
+            val intent = Intent(this,MessageActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onStart() {
