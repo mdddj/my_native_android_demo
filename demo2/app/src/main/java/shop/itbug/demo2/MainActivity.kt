@@ -22,6 +22,18 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,DialogActivity::class.java)
             startActivity(intent)
         }
+        startWeightActivity.setOnClickListener{
+            val intent = Intent(this,LayoutWeightActivity::class.java)
+            startActivity(intent)
+        }
+        startRelativeLayoutActivity.setOnClickListener{
+            val intent = Intent(this,RelativeLayoutActivity::class.java)
+            startActivity(intent)
+        }
+        startListViewActivity.setOnClickListener{
+            val intent = Intent(this,ListViewActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onStart() {

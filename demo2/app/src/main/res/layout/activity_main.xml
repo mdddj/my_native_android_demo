@@ -5,11 +5,32 @@
     android:layout_height="match_parent">
 
     <Button
+        android:id="@+id/startNormalActivity"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:id="@+id/startNormalActivity" android:text="启动普通页面" />
+        android:layout_height="wrap_content"
+        android:text="启动普通页面" />
 
     <Button
+        android:id="@+id/startDialogActivity"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:id="@+id/startDialogActivity" android:text="启动弹出框" />
+        android:layout_height="wrap_content"
+        android:text="启动弹出框" />
 
+    <Button
+        android:id="@+id/startWeightActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout_weight的使用" android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/startRelativeLayoutActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout的使用" android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/startListViewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView的使用" android:textAllCaps="false" />
 </LinearLayout>
