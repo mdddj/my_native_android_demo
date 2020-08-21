@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/rl"
+        android:title="日历"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/chuang"
+        android:icon="@drawable/c"
+        android:title="床"
+        app:showAsAction="ifRoom" />
+</menu>
