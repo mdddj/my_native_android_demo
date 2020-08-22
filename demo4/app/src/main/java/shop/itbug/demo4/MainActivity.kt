@@ -10,6 +10,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.core.view.GravityCompat
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.*
 import java.lang.StringBuilder
@@ -38,6 +39,12 @@ class MainActivity : AppCompatActivity() {
         navMenu.setNavigationItemSelectedListener {
             drawerLayout.closeDrawers()
             true
+        }
+
+        fab.setOnClickListener{
+            Snackbar.make(it,"项目已删除",Snackbar.LENGTH_SHORT).setAction("撤销"){
+                Toast.makeText(this,"已撤销",Toast.LENGTH_SHORT).show()
+            }.show()
         }
     }
 
